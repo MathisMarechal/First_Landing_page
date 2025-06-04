@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.flex-container-header {
+    display: flex;
+}
+  
+
+.flex-container-header div {
+    background: #1f2937;
+    border: 0;
+    height: 40px;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+  
+.flex-container-header .header-logo {
+    flex: 3 1 0%;
+}
