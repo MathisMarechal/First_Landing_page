@@ -2,23 +2,33 @@ body {
     margin: 0;
 }
 
-.flex-container-header {
+/* .flex-container-header {
     display: flex;
-}
+    gap: 150px;
+    background: #1f2937;
+} */
   
 
-.flex-container-header div {
+.flex-container-header {
     background: #1f2937;
     border: 0;
     height: 40px;
     display: flex;
-    flex: 1;
     text-align: center;
     justify-content: center;
     align-items: center;
     color: white;
 }
-  
+
+.flex-container-header .header-link-container {
+    flex: 1;
+    display: flex;
+}
+
+.flex-container-header .header-link {
+    flex: 1;
+}
+
 .flex-container-header .header-logo {
-    flex: 3 1 0%;
+    flex: 1;
 }
